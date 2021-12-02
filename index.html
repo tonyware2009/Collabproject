@@ -32,7 +32,7 @@
   }
 </style>
 
-<body class="debug">
+<body class="">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
       <div class="container-fluid">
@@ -49,15 +49,16 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Dropdown
+                Store
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Lift Kits</a></li>
-                <li><a class="dropdown-item" href="#">Tires $ Rims</a></li>
+                <li><a class="dropdown-item" href="#tire">Tires $ Rims</a></li>
+                <li><a class="dropdown-item" href="#tire">Lift Kits</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Customized Projects</a></li>
+                <li><a class="dropdown-item" href="#tire">Customized Projects</a></li>
+
               </ul>
             </li>
           </ul>
@@ -72,16 +73,17 @@
   <!-- First row and column -->
   <section>
     <div class="container-fluid bg-dark">
-      <div class="row row-1">
-        <div class="col-md-4 ">
+      <div class="row row-1 justify-content-around mb-3">
+        <div class="col-md-3">
           <img src="https://car-images.bauersecure.com/pagefiles/96227/bronco_105.jpg" class="object-fit-contain bronco"
             alt="4x4!!!!!">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <img src="https://cdn.motor1.com/images/mgl/o6N7y/s1/mercedes-g-class-squared-spy-photo.jpg"
             class="object-fit-contain bronco" alt="G-class">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
+
           <img src="https://i.ytimg.com/vi/izmtz8Fsdi4/maxresdefault.jpg" class="object-fit-contain bronco"
             alt="JEEP CRAWLER!!!!!!!!">
 
@@ -98,7 +100,8 @@
   </section>
   <div class="container-fluid">
     <div class="row row-3 bg-dark text-light p-5">
-      <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit laboriosam voluptatibus sint asperiores
+      <h6 class="text1 p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit laboriosam voluptatibus sint
+        asperiores
         debitis accusamus optio. Tempore, quis! Quis, vitae saepe! Consectetur repellat itaque nemo est ipsa
         reprehenderit hic. Illo.
         Nihil molestias, possimus consequuntur ullam cumque doloremque explicabo quam a illum tempora enim nam, minima
@@ -123,10 +126,26 @@
         necessitatibus repudiandae officia molestias architecto ipsum nemo maxime. Odit sapiente quae animi in expedita
         distinctio fuga minus.</h6>
 
-      <div class="col-md-6 d-flex justify-content-center mb-5 position-relative"></div>
-      <div class="col-md-6 d-flex justify-content-center mb-5 position-relative"></div>
-      <div class="col-md-6 d-flex justify-content-center mb-5 position-relative"></div>
-      <div class="col-md-6 d-flex justify-content-center mb-5 position-relative"></div>
+      <div class="col-md-6 d-flex justify-content-center mb-5 p-5" id="tire">
+        <img src="https://www.maxxis.com/us/wp-content/uploads/sites/13/2021/01/CC-1024x1024.jpg" class="tire"
+          alt="tire thing">
+        <button class="btn shop-button">Shop</button>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center mb-5 p-5" id="tire">
+        <img src="https://www.sawtoothusa.com/wp-content/uploads/2020/10/suspension-4.jpeg" class="tire"
+          alt="tire thing">
+        <button class="btn shop-button">Shop</button>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center mb-5 p-5" id="tire">
+        <img src="https://i.ytimg.com/vi/sAu6Sp4eERE/maxresdefault.jpg" class="tire" alt="tire thing">
+        <button class="btn shop-button">Shop</button>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center mb-5 p-5" id="tire">
+        <img
+          src="https://assets.whichcar.com.au/image/private/s--VQ-p6xWA--/ar_2.304921968787515,c_fill,f_auto,g_xy_center,q_auto:good,x_884,y_623/v1/4x4%20Australia/Miscellaneous/2021_Custom_4x4_of_the_Year_main_image.jpg"
+          class="tire" alt="tire thing">
+        <button class="btn shop-button">Shop</button>
+      </div>
     </div>
   </div>
   <!-- Bootstrap JavaScript Libraries -->

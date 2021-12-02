@@ -6,6 +6,15 @@
   height: 100%;
   width: 100%;
 }
+.text1{
+  border: solid white;
+border-radius: 1%;
+}
+.tire{
+  height: 40vh;
+  width: 25vw;
+  border-radius: 10%;
+}
 .object-fit-contain{
   object-fit: cover;
 }
@@ -22,5 +31,13 @@
 }
 /* container 2 row 1 under this comment */
 .row-3{
-height: 85vh;
+height: 155vh;
+}
+
+.flex{
+  justify-content: space-evenly;
+}
+.shop-button{
+  background-color: green;
+  
 }
