@@ -1,0 +1,26 @@
+:root{
+
+}
+
+.bronco{
+  height: 100%;
+  width: 100%;
+}
+.object-fit-contain{
+  object-fit: cover;
+}
+ /* .row-1{
+  height: 50vh;
+} */
+
+.row-2{
+  height: 50vh;
+  background-image: url("https://campingplus.com.au/wp-content/uploads/2019/09/Land-Cruiser-mountain-Park-offroading-500x281.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* container 2 row 1 under this comment */
+.row-3{
+height: 85vh;
+}
